@@ -1,7 +1,20 @@
 header
     padding: 20px 0
+    background-color: #000
     .imgbox
-        width: 40px
+        width: 35px
+    .btn
+        display: flex
+        display: none
+        align-items: center
+        border: 2px solid #818181
+        border-radius: 5px
+        padding: 2px 7px
+        color: #818181
+        opacity: 0.6
+        h2
+            font-size: 18px
+            margin-right: 5px
     nav
         a
             font-size: 20px
@@ -9,3 +22,15 @@ header
             margin-right: 30px
         .home-color
             color: #74bebc
+    @media screen and ( max-width: 768px )
+        .menu
+            padding: 0 25px
+            .btn
+                display: flex
+            nav
+                display: none
+    @media screen and ( max-width: 450px )
+        .menu
+            padding: 0 5px
+            .btn
+                margin: 0 10px
