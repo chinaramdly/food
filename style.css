@@ -169,6 +169,13 @@ header nav .home-color {
   color: #36b3bd;
   margin-bottom: 60px;
 }
+#works .box .minibox {
+  display: flex;
+  justify-content: center;
+}
+#works .box .minibox .imgbox {
+  width: 350px;
+}
 #works .box .textbox {
   padding: 35px 55px;
 }
