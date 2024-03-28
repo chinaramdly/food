@@ -1,6 +1,5 @@
 #browse
     .textbox
-        // width: 500px
         text-align: center
         h1
             font-weight: 700
@@ -16,7 +15,7 @@
                 text-decoration: underline
     .btn
         font-size: 18px
-        padding: 15px 46px
+        padding: 15px 80px
         margin: 0 20px
         border: 0.5px solid #bdbdbd
         border-radius: 5px
@@ -27,19 +26,18 @@
         padding: 30px
         margin-bottom: 10px
         .imgbox
-            width: 150px
             border-radius: 10px
         .textbox
             text-align: start
             width: auto
             margin-left: 20px
-            .minibox
-                h2
-                    font-size: 22px
-                    font-weight: 700
-                h5
-                    font-size: 18px
-                    color: #3cc1d8
+            h2
+                font-size: 22px
+                font-weight: 700
+                margin: 10px 0
+            h5
+                font-size: 18px
+                color: #3cc1d8
             p
                 font-size: 18px
                 color: #232f4285
@@ -58,3 +56,14 @@
     .big
         padding: 17px 53px
         margin-top: 50px
+    @media screen and ( min-width: 768px )
+        .box
+            display: flex
+            align-items: center
+            .imgbox
+                width: 150px
+            .minibox
+                display: flex
+                justify-content: space-between
+                h2
+                    margin: 0

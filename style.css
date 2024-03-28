@@ -68,14 +68,14 @@ header nav .home-color {
   padding-right: 75px;
 }
 #beatiful .box h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 #beatiful .box span {
   color: #37b7c3;
 }
 #beatiful .box h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #676f8b;
   line-height: 1.3;
   margin: 25px 0 35px;
@@ -83,36 +83,27 @@ header nav .home-color {
 #beatiful .box .btn {
   color: white;
   background-color: #38b6c1;
-  padding: 10px 20px;
+  padding: 13px 22px;
   border-radius: 5px;
 }
 #beatiful .box .btn h2 {
-  font-size: 16px;
+  font-size: 18px;
 }
 #beatiful .box .imgbox {
   width: 85px;
   margin: 20px 0 10px;
 }
 #beatiful .box h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #beatiful .box {
-    padding-right: 0;
+    padding: 80px;
+    text-align: center;
   }
-  #beatiful .box h1 {
-    font-size: 30px;
-  }
-  #beatiful .box h5 {
-    margin: 15px 0 20px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #beatiful .box {
-    padding: 0 30px 30px;
-  }
-  #beatiful .box h5 {
-    margin-right: 50px;
+  #beatiful .box .minibox {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -123,12 +114,12 @@ header nav .home-color {
   padding-right: 50px;
 }
 #thehome .textbox h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #36b3bd;
 }
 #thehome .textbox h5 {
-  font-size: 16px;
+  font-size: 18px;
   color: #676f8b;
   line-height: 1.3;
   margin: 25px 75px 50px 0;
@@ -136,38 +127,33 @@ header nav .home-color {
 #thehome .textbox .btn {
   color: white;
   background-color: #38b6c1;
-  padding: 13px 30px;
+  padding: 13px 22px;
 }
 #thehome .textbox .btn h2 {
   font-size: 20px;
   border-radius: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  #thehome .textbox {
+    padding: 80px;
+    text-align: center;
+  }
   #thehome .textbox h1 {
-    font-size: 30px;
+    font-size: 60px;
   }
   #thehome .textbox h5 {
-    margin: 15px 20px 30px 0;
-  }
-  #thehome .textbox .btn {
-    padding: 10px 15px;
-  }
-  #thehome .textbox .btn h2 {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #thehome .textbox {
-    text-align: center;
-    padding: 20px 50px;
+    margin-right: 0;
   }
 }
 
 #works h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   color: #36b3bd;
   margin-bottom: 60px;
+}
+#works .box {
+  padding-bottom: 70px;
 }
 #works .box .minibox {
   display: flex;
@@ -178,7 +164,7 @@ header nav .home-color {
 }
 #works .box .textbox {
   text-align: center;
-  padding: 35px 55px;
+  padding: 35px 45px;
 }
 #works .box .textbox h2 {
   font-size: 25px;
@@ -190,25 +176,9 @@ header nav .home-color {
   font-size: 20px;
   line-height: 1.3;
 }
-@media screen and (max-width: 768px) {
-  #works .box {
-    display: flex;
-    padding-bottom: 50px;
-  }
-  #works .box .minibox .imgbox {
-    width: 200px;
-  }
+@media screen and (max-width: 992px) {
   #works .box .textbox {
-    text-align: start;
-    padding: 20px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #works .box .minibox .imgbox {
-    width: 180px;
-  }
-  #works .box .textbox {
-    padding: 20px 0;
+    padding: 35px 100px;
   }
 }
 
@@ -232,7 +202,7 @@ header nav .home-color {
 }
 #browse .btn {
   font-size: 18px;
-  padding: 15px 46px;
+  padding: 15px 80px;
   margin: 0 20px;
   border: 0.5px solid #bdbdbd;
   border-radius: 5px;
@@ -246,7 +216,6 @@ header nav .home-color {
   margin-bottom: 10px;
 }
 #browse .box .imgbox {
-  width: 150px;
   border-radius: 10px;
 }
 #browse .box .textbox {
@@ -254,11 +223,12 @@ header nav .home-color {
   width: auto;
   margin-left: 20px;
 }
-#browse .box .textbox .minibox h2 {
+#browse .box .textbox h2 {
   font-size: 22px;
   font-weight: 700;
+  margin: 10px 0;
 }
-#browse .box .textbox .minibox h5 {
+#browse .box .textbox h5 {
   font-size: 18px;
   color: #3cc1d8;
 }
@@ -285,9 +255,25 @@ header nav .home-color {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media screen and (min-width: 768px) {
+  #browse .box {
+    display: flex;
+    align-items: center;
+  }
+  #browse .box .imgbox {
+    width: 150px;
+  }
+  #browse .box .minibox {
+    display: flex;
+    justify-content: space-between;
+  }
+  #browse .box .minibox h2 {
+    margin: 0;
+  }
+}
 
 #order .textbox h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #36b3bd;
 }
@@ -304,12 +290,24 @@ header nav .home-color {
   font-size: 20px;
   border-radius: 5px;
 }
+@media screen and (max-width: 990px) {
+  #order .textbox {
+    text-align: center;
+    padding: 80px;
+  }
+  #order .textbox h1 {
+    font-size: 60px;
+  }
+  #order .textbox h5 {
+    margin-right: 0;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
 }
 #callour .textbox h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   color: #36b3bd;
 }
@@ -325,12 +323,26 @@ header nav .home-color {
   font-size: 20px;
   padding: 13px 34px;
 }
+@media screen and (max-width: 992px) {
+  #callour .textbox {
+    text-align: center;
+    padding: 80px;
+  }
+  #callour .textbox h1 {
+    font-size: 60px;
+  }
+  #callour .textbox h5 {
+    margin-right: 0;
+  }
+}
 
+#support .textbox {
+  padding: 0 20px;
+}
 #support .textbox h1 {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
-  margin: 0 70px 0 40px;
   line-height: 1.1;
 }
 #support .textbox span {
@@ -341,8 +353,22 @@ header nav .home-color {
   color: #38b6c1;
   padding: 10px 30px;
   background-color: white;
-  margin: 30px 0 0 40px;
+  margin: 30px 0;
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 992px) {
+  #support .textbox h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #support .imgbox {
+    height: 200px;
+  }
+  #support .textbox {
+    margin-top: 20px;
+    padding: 20px 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

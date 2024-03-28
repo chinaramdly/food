@@ -1,10 +1,10 @@
 #support
     .textbox
+        padding: 0 20px 
         h1
             color: #ffff
-            font-size: 60px
+            font-size: 50px
             font-weight: 700
-            margin: 0 70px 0 40px
             line-height: 1.1
         span
             color: #24667283
@@ -13,6 +13,16 @@
             color: #38b6c1
             padding: 10px 30px
             background-color: #ffff
-            margin: 30px 0 0 40px
+            margin: 30px 0
     .bgc
         background-color: #35b6c1
+    @media screen and ( max-width: 992px)
+        .textbox
+            h1
+                font-size: 40px
+    @media screen and ( max-width: 768px )
+        .imgbox
+            height: 200px
+        .textbox
+            margin-top: 20px
+            padding: 20px 50px
