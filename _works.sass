@@ -1,6 +1,6 @@
 #works
     h1
-        font-size: 60px
+        font-size: 40px
         font-weight: 700
         color: #36b3bd
         margin-bottom: 60px
@@ -11,6 +11,7 @@
             .imgbox
                 width: 350px
         .textbox
+            text-align: center
             padding: 35px 55px
             h2
                 font-size: 25px
@@ -20,3 +21,20 @@
                 color: #676f8b
                 font-size: 20px
                 line-height: 1.3
+    @media screen and ( max-width: 768px )
+        .box
+            display: flex
+            padding-bottom: 50px
+            .minibox
+                .imgbox
+                    width: 200px
+            .textbox
+                text-align: start
+                padding: 20px
+    @media screen and ( max-width: 576px )
+        .box
+            .minibox
+                .imgbox
+                    width: 180px
+            .textbox
+                padding: 20px 0
