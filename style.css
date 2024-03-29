@@ -19,19 +19,13 @@ header .imgbox {
   width: 35px;
 }
 header .btn {
-  display: flex;
+  background-color: #b9b1b1;
   display: none;
-  align-items: center;
-  border: 2px solid #01496b;
+  border: 2px solid #b9b1b1;
   border-radius: 5px;
-  padding: 2px 7px;
-  color: #01496b;
+  padding: 5px 10px;
+  color: #040404;
   opacity: 0.6;
-}
-header .btn h2 {
-  font-weight: 700;
-  font-size: 18px;
-  margin-right: 5px;
 }
 header nav a {
   font-size: 20px;
@@ -41,23 +35,15 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   header .menu {
-    padding: 0 25px;
+    padding: 0 20px;
   }
   header .menu .btn {
     display: flex;
   }
   header .menu nav {
     display: none;
-  }
-}
-@media screen and (max-width: 450px) {
-  header .menu {
-    padding: 0 5px;
-  }
-  header .menu .btn {
-    margin: 0 10px;
   }
 }
 
@@ -182,6 +168,9 @@ header nav .home-color {
   }
 }
 
+#browse {
+  background-color: #f5fbfc;
+}
 #browse .textbox {
   text-align: center;
 }
@@ -203,7 +192,6 @@ header nav .home-color {
 #browse .btn {
   font-size: 18px;
   padding: 15px 80px;
-  margin: 0 20px;
   border: 0.5px solid #bdbdbd;
   border-radius: 5px;
 }
@@ -212,8 +200,10 @@ header nav .home-color {
   background-color: #14c7cd;
 }
 #browse .box {
-  padding: 30px;
-  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 #browse .box .imgbox {
   border-radius: 10px;
@@ -249,7 +239,11 @@ header nav .home-color {
 #browse .box .textbox .add .btn {
   background-color: #14c7cd;
   color: white;
-  padding: 7px 20px;
+  padding: 7px 10px;
+  margin-left: 5px;
+}
+#browse .box .textbox .add .btn h3 {
+  font-size: 15px;
 }
 #browse .big {
   padding: 17px 53px;
@@ -365,10 +359,10 @@ header nav .home-color {
 }
 @media screen and (max-width: 768px) {
   #support .imgbox {
-    height: 200px;
+    height: 250px;
   }
   #support .textbox {
     margin-top: 20px;
-    padding: 20px 50px;
+    padding: 20px 30px;
   }
 }/*# sourceMappingURL=style.css.map */
