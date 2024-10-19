@@ -253,7 +253,10 @@ header nav .home-color {
   padding: 7px 10px;
   margin-left: 5px;
 }
-#browse .box .textbox .add .btn h3 {
+#browse .box .textbox .add .cart {
+  width: 140px;
+}
+#browse .box .textbox .add .cart h3 {
   font-size: 15px;
 }
 #browse .big {
